@@ -15,10 +15,11 @@ const Contact = () => {
       className="contact w-full h-scree p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
-          <p className="text-4xl text-orange-600 font-bold inline border-b-4 border-gray-500">
+        <div className="pb-8 text-center">
+          <p className="text-4xl text-white">
             Contact
           </p>
+          <p className=" text-orange-600">—•— find me! —•—</p>
           <p className="py-6 text-neutral-400 font-medium">Submit the form below to get in touch with me</p>
         </div>
         

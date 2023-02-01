@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import kriti from "../assets/kriti.png"
+import pic  from "../assets/pic.png"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import shape from "../assets/shape-bg.png"
@@ -15,10 +15,10 @@ const Home = () => (
     <div className="max-w-screen-lg mx-auto flex flex-col gap-10 items-center justify-evenly h-full px-4 md:flex-row">
       <div className="small-screen hidden mt-8">
         <div>
-        <img
-          src={kriti}
+         <img
+          src={pic}
           alt="profile"
-          className="border-orange-600 w-52  rounded-full" />
+          className="border-orange-600 w-74  rounded-full bg-fixed" />
         </div>
       </div>
       <div className="flex flex-col justify-center h-full">
@@ -46,9 +46,9 @@ const Home = () => (
      
         <div className="big-screen w-5/12 space-x-2 shadow-orange-600  ">
         <img 
-            src={kriti}
+            src={pic}
             alt="profile"
-            className="p-10 rounded-full "
+            className=" "
           />
         </div>
     </div>

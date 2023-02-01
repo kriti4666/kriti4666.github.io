@@ -1,54 +1,61 @@
 import React from "react";
-import GitHubCalendar from 'react-github-calendar';
+import GitHubCalendar from "react-github-calendar";
+import ReactTooltip from "react-tooltip";
 
+const Statistics = () => {
+  const selectLastHalfYear = (contributions) => {
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth();
+    const shownMonths = 12;
 
+    return contributions.filter((day) => {
+      const date = new Date(day.date);
+      const monthOfDay = date.getMonth();
 
-
-  const Statistics=()=>{
-    const selectLastHalfYear = contributions => {
-      const currentYear = new Date().getFullYear();
-      const currentMonth = new Date().getMonth();
-      const shownMonths = 12;
-    
-      return contributions.filter(day => {
-        const date = new Date(day.date);
-        const monthOfDay = date.getMonth();
-    
-        return (
-          date.getFullYear() === currentYear &&
-          monthOfDay > currentMonth - shownMonths &&
-          monthOfDay <= currentMonth
-        );
-      });
-    };
-    return(
-      <div 
+      return (
+        date.getFullYear() === currentYear &&
+        monthOfDay > currentMonth - shownMonths &&
+        monthOfDay <= currentMonth
+      );
+    });
+  };
+  return (
+    <div
       name="statistics"
-      className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-black">
+      className="max-w-screen-lg mx-auto p-10 flex flex-col justify-center h-full text-black"
+    >
       <div>
-      <p className="text-orange-600	 text-4xl font-bold inline border-b-4 border-gray-500">
-          Statistics
-        </p>
+        <p className="text-black text-center text-4xl ">Statistics</p>
+        <p className=" text-orange-600 text-center">—•— Git Stats —•—</p>
       </div>
-      <div className="flex gap-9  justify-center mt-14">
-      
-      <p><img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kriti4666&theme=tokyonight" alt="kriti4666" /></p>
+      <p className="text-center mt-8 ">GITHUB CALANDER</p>
+      <div className="flex border-2 h-auto w-full justify-center align-center m-auto mt-8">
+        <GitHubCalendar username="kriti4666" year="last" >
+          {" "}
+          <ReactTooltip delayShow={20} />{" "}
+        </GitHubCalendar>
       </div>
-      <div className="flex justify-center items-center  mt-16 text-6xl font-medium">
-        <GitHubCalendar 
-     username="kriti4666" 
-  transformData={selectLastHalfYear} 
- 
-/>
+      <div className=" m-auto mt-14">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kriti4666&show_icons=true&locale=en&layout=compact&theme=white" />
       </div>
-
-      <div style={{marginTop:"60px", margin: "auto"}}>
-          {/* <img  alt="Kriti's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=kriti4666&bg_color=0D1117&color=FFA500&line=FFA500&point=FFA500&hide_border=true" /> */}
-          <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kriti4666&show_icons=true&locale=en&layout=compact&theme=gruvbox" alt="kriti4666" /></p>
+      <div className="flex gap-20  justify-center mt-14">
+        <div>
+          <img
+            align="center"
+            alt="kriti4666"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=kriti4666&show_icons=true&count_private=true"
+          />
         </div>
-     </div>
-    )
-
-  }
+        <div>
+          <img
+            align="center"
+            src="https://github-readme-stats.vercel.app/api?username=kriti4666&count_private=true&show_icons=true"
+            alt="kriti4666"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Statistics;
