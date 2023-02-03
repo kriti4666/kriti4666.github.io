@@ -1,7 +1,6 @@
 import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import pic  from "../assets/pic.png"
-import { Link } from "react-scroll";
 import shape from "../assets/shape-bg.png"
 import resume from "../assets/resume.pdf";
 

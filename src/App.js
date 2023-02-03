@@ -6,7 +6,6 @@ import NavBar from "./Components/NavBar";
 import Portfolio from "./Components/Portfolio";
 import SocialLinks from "./Components/SocialLinks";
 import Footer from "./Components/Footer";
-import shape from "./assets/shape-bg.png";
 import Statistics from "./Components/Statistics";
 
 function App() {

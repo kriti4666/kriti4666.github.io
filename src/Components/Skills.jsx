@@ -5,11 +5,13 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import Python from "../assets/python.png";
+import Charts from "../assets/chart.png";
+import figma from "../assets/figma.png";
+import jwt from "../assets/jwt.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
-import chakra from "../assets/chakra.png"
 import mongo from "../assets/mongodb.png"
 import node from "../assets/node.png"
 
@@ -77,6 +79,28 @@ const Skills = () => {
       src: node,
       title: "NodeJS",
       style: "shadow-green-600",
+    },
+    {
+      id: 15,
+      src: jwt,
+      title: "JWT",
+      style: "shadow-cyan-600",
+    },
+    {
+      id: 15,
+      src: figma,
+      title: "FIGMA",
+      style: "shadow-purple-400",
+    },{
+      id: 15,
+      src: Charts,
+      title: "Charts",
+      style: "shadow-gray-600",
+    },{
+      id: 15,
+      src: Python,
+      title: "Python",
+      style: "shadow-yellow-600",
     },
   ];
 
