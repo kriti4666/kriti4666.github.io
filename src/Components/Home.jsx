@@ -1,6 +1,7 @@
 import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import pic  from "../assets/pic.png"
+import { Link } from "react-scroll";
 import shape from "../assets/shape-bg.png"
 import resume from "../assets/resume.pdf";
 
@@ -24,9 +25,11 @@ const Home = () => (
        <h2 className="text-4xl sm:text-5xl font-bold text-white">
          Hello, I'm <span className="text-orange-600" >Kriti</span>
         </h2>
-        <div className="mt-4 text-3xl text-white font-bold ">Full Stack Web Developer</div>
+        <div className="mt-4 text-3xl text-white font-bold ">A Full Stack Web Developer</div>
         <p className="font-medium	text-1xl text-gray-400 py-4 max-w-md">
-          I love to build websites using the latest front-end technologies and full fledged APIs.
+          I have a specialization in MERN stack web development. Self-motivated and curious to learn new things.
+          <br />
+          <strong>lets build something new.</strong>
         </p>
        </div>
 

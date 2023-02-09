@@ -19,7 +19,7 @@ const Contact = () => {
           <p className="text-4xl text-white">
             Contact
           </p>
-          <p className=" text-orange-600">—•— contact me—•—</p>
+          <p className=" text-orange-600">—•— contact me here! —•—</p>
           <p className="py-6 text-neutral-400 font-medium">Submit the form below to get in touch with me</p>
         </div>
         
@@ -28,7 +28,7 @@ const Contact = () => {
             onSubmit={handleSubmit}
             name="contact"
             method="POST"
-            action="https://getform.io/f/1622dfc3-e423-4535-b54b-d8a3caeaa115"
+            action="https://getform.io/f/a505f45e-31f8-4a56-a7f1-7a535028342c"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input

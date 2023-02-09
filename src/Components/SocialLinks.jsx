@@ -9,7 +9,7 @@ const SocialLinks = () => {
   return (
     <div>
       <p className="text-center text-orange-600 mt-4">—•—my details—•—</p>
-      <div className="flex w-2/5 m-auto p-5 flex-col justify-center gap-10">
+      <div className="flex w-2/5 m-auto font-bold p-5 flex-col justify-center gap-10">
       <div className="flex gap-12 w-full">
           <div className="border-2 rounded-full w-10 flex justify-center items-center border-hidden text-black bg-orange-600 h-10	">
             {" "}
@@ -20,7 +20,7 @@ const SocialLinks = () => {
               <ImMail4/>
             </a>{" "}
           </div>
-          <div className="text-xl ">kritikumari4666@gmail.com</div>
+          <div className="md:text-xl sm: text-sm">kritikumari4666@gmail.com</div>
         </div>
         <div className="flex gap-12 w-full">
           <div className="border-2 rounded-full w-10 flex justify-center items-center border-hidden text-black bg-orange-600 h-10	">

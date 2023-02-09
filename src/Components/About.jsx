@@ -31,9 +31,9 @@ const About = () => {
             <p className="text-l font-medium text-gray-500">
               A Proficient full-stack web developer with the ability to learn
               and collaborate in rapidly changing environments and compositions.
-              Worked through 1200+ hours in a military type structure, learning
-              MERN stack web development with data structures and algorithms.
-              Keen to tackle web development challenges.
+              Worked through <strong>1200+ hours</strong> in a <strong>military type</strong> structure, learning 
+              <strong> MERN stack web development</strong> with <strong>data structures and algorithms</strong>.
+              Keen to tackle web development challenges, <strong>Wish to work in team motivated individuals and work towards the advancement of the company having the scope to develope my own skills</strong>. 
             </p>
           </div>
         </div>

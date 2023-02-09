@@ -36,7 +36,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div style={{backgroundColor: "#202235"} }  className="flex justify-between items-center w-full h-20 px-4 text-white font-bold fixed na  to-orange-600 " >
+    <div style={{backgroundColor: "#202235", zIndex: 10} }  className="flex justify-between items-center w-full h-20 px-4 text-white font-bold fixed na  to-orange-600 " >
       <div>
        
         <h1 className="text-2xl  shadow-black font-style: italic ml-2"><a className="cursor-pointer link-underline link-underline-black" target="_blank" rel="noreferrer">KRITI</a></h1>
