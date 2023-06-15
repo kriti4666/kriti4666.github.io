@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf2026be.css",
-    "main.js": "/static/js/main.80ace0c4.js",
+    "main.css": "/static/css/main.515e5a75.css",
+    "main.js": "/static/js/main.9795c1c8.js",
     "static/media/fitclub.png": "/static/media/fitclub.420d3d4247261fe1abe7.png",
     "static/media/bewakoof.png": "/static/media/bewakoof.4fe43d8f50b63779b703.png",
     "static/media/kriti.png": "/static/media/kriti.09e443c9e5fad4015273.png",
     "static/media/credbee.png": "/static/media/credbee.a5521a06802db6209e40.png",
     "static/media/farfetch.png": "/static/media/farfetch.93b41a93c47845f829e4.png",
-    "static/media/resume.pdf": "/static/media/resume.7b928d278a9e171f6821.pdf",
+    "static/media/resume.pdf": "/static/media/resume.b4df143bcc99c2744214.pdf",
     "static/media/pic.png": "/static/media/pic.f5441e8317aa5edd9233.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -21,11 +21,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/eduOrange.svg": "/static/media/eduOrange.0793a40dd975bc4acbc54d9e7326a45d.svg",
     "index.html": "/index.html",
-    "main.bf2026be.css.map": "/static/css/main.bf2026be.css.map",
-    "main.80ace0c4.js.map": "/static/js/main.80ace0c4.js.map"
+    "main.515e5a75.css.map": "/static/css/main.515e5a75.css.map",
+    "main.9795c1c8.js.map": "/static/js/main.9795c1c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf2026be.css",
-    "static/js/main.80ace0c4.js"
+    "static/css/main.515e5a75.css",
+    "static/js/main.9795c1c8.js"
   ]
 }
